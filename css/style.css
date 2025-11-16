@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.register , .login , .reg-a {
+    text-decoration: none;
+}
+
+.register {
+    color: green;
+}
+
+.register-b {
+    margin-right: -15px;
+}
+
+.login-b {
+    margin-right: -12px;
+}
+
+.btn:hover .register ,.btn:hover .login {
+    color: #fff;
+}
+
+.register-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    z-index: 1000;
+}
+
+.register-h {
+    margin-top: 8px;
+}
+
+.navbar #hello-nv {
+    display: none;
+}
+
+.shoppingcart {
+    display: none;
+    position: absolute;
+    right: 2px;
+    top: 75px;
+    width: 127px;
+    text-align: center;
+    border: 1px solid red;
+    padding: 0px 1px;
+}
+
+.order {
+    margin-top: 1px;
+    border: 1px solid blue;
+}
+
+#item-cart {
+    cursor: pointer;
+}
+
+.info-user li {
+    display: inline;
+}
+
+.badge {
+    margin-left: -12px;
+}
+
+.containe {
+    padding-top: 20px;
+    width: 78%;
+    margin: auto;
+}
+
+.card:hover {
+    border: 1px solid blue;
+    transform: translateY(-10px);
+    transition: .4s;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card:hover img {
+    transform: scaleX(1.09);
+    transition: .5s;
+}
+
+.price {
+    height: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ppp {
+    min-height: 300px;
+    margin-top: 20px;
+    padding-left: 4%;
+}
+
+.product_cart {
+    width: 41%;
+    margin-left: 5%;
+    margin-top: 12px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    background: bisque;
+    padding: 15px;
+    border-radius: 10px;
+    float: left;
+}
+
+.product_cart img {
+    width: 160px;
+}
+
+.product_cart div  {
+    margin-left: 30px;
+    align-self: center;
+}
+
+.card img {
+    height: 350px;
+}
+
+.shoppingcart {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 100;
+}
+.cart-item {
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
