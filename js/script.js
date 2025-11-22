@@ -184,6 +184,7 @@ function drewItem(productList = products) {
     AllProducts.innerHTML = y;
 }
 
+drewItem(products);
 
 var searchInput = document.querySelector("#search");
 
